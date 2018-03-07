@@ -1,0 +1,28 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.row-m-t
+{
+    margin-top : 50px
+}
+
+.duration
+{
+    float: right;
+}
