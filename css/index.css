@@ -242,4 +242,7 @@ body
     .logo{
         padding-left: 50px;
     }
+    .social-icons{
+        padding-left: 1rem !important;
+    }
 }
