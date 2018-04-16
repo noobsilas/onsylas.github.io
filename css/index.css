@@ -1,0 +1,245 @@
+body
+{
+    font-family: Montserrat;
+}
+
+.nav{
+    float: right;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.5;    
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333333;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #F55D5D;
+    }
+
+.nav li {
+    display: inline-block;
+    padding-right: 30px;
+    }
+.navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+        box-shadow: none !important;
+        }
+
+.logo{
+    height: 40px;
+}
+
+/* .btn-style{
+    font-family: Montserrat !important;
+} */
+
+
+.intro-div-3{
+    font-family: Montserrat;
+    font-size: 20px;
+    margin: auto;
+}
+
+.hello-text{
+    font-size: 30px;
+  font-weight: 600;
+}
+
+
+.header{
+    background-color: #ffe164;
+    height: 700px;
+}
+
+
+.about-div-2{
+    padding-bottom: 50px;
+    background-color: #fafaf5;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.about{
+    font-size: 20px;
+  font-weight: 600;
+}
+
+#really{
+    font-weight: 300;
+  font-style: italic;
+  margin: auto;
+}
+
+
+.about-text{
+    margin: auto;
+}
+
+.work{
+    font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.work-2{
+    height: 325px;
+  background-color: #68c746;
+}
+
+.work-3{
+    background-color: #fafaf5;
+    height: 325px;
+}
+
+.work-text-header{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.work-text{
+    font-family: Montserrat;
+}
+
+.second-work-2{
+    background-color: #7189a5;
+    height: 325px;
+}
+
+.third-work-2{
+    background-color: #f8e3e2;
+    height: 325px;
+}
+
+.contact-1{
+    background-color: #1e3746;
+}
+.contact-2{
+    height: 325px;
+    background-color: #1e3746;
+}
+
+.contact-3{
+    background-color: #1e3746;
+}
+
+.contact-text{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.contact-header-text{
+    font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.mail{
+    font-style: italic;
+    font-weight: 700;
+    color: #ffe164;
+    text-decoration: none;
+}
+
+.mail:hover{
+    color: #ffffff;
+}
+
+.a:link{
+    text-decoration: none;
+}
+
+.social-icons{
+    list-style-type: none;
+}
+
+.social-icons :hover{
+    color: #F55D5D;
+    transition: .3s background-color;
+}
+
+.social-link{
+    color: #ffffff;
+}
+
+.kyobo-img{
+    background-image: url("../img/kyobo.png");
+}
+
+.comicsans-img{
+    background-image: url("../img/comicsans.png");
+}
+
+.yemi-img{
+    background-image: url("../img/yemi.png");
+}
+
+.view-project{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    display: none;
+
+}
+.view-project:hover{
+    text-decoration: underline;
+    color: #F55D5D;
+}
+
+.view-link{
+    color: #F55D5D;
+}
+
+
+.footer-container{
+    background-color: #1e3746;
+}
+
+@media only screen and (max-width : 1024px) {
+    .profile{
+        display: none;
+    }
+
+    .view-project{
+        display: unset;
+    }
+
+    .work-2{
+        display: none;
+    }
+
+    .second-work-2{
+        display: none;
+    }
+
+    .third-work-2{
+        display: none;
+    }
+
+    .responsive-width{
+        background-color: #fafaf5;
+    }
+
+    .logo{
+        padding-left: 50px;
+    }
+}
