@@ -245,4 +245,12 @@ body
     .social-icons{
         padding-left: 1rem !important;
     }
+    
+    .intro-div-3{
+        text-align: center;
+    }
+
+    .nav{
+        display: none;
+    }
 }
