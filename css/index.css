@@ -253,4 +253,8 @@ body
     .nav{
         display: none;
     }
+    
+    .contact-2{
+        height: 400px;
+    }
 }
